@@ -1,1 +1,0 @@
-C:\ProgramData\Anaconda32bit\Scripts\pyinstaller.exe -F -c D:\PerDocs\personal\sync\configs\trunk\FillEmptyDir.py --distpath=D:\PerDocs\personal\sync\configs\trunk\dist

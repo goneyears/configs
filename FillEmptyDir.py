@@ -31,7 +31,7 @@ def fillEmptyDir(curdir):
 
     for i in range(0, len(dirfiles)):
         subdir = os.path.join(curdir, dirfiles[i])
-        if os.path.isdir(subdir):
+        if os.path.isdir(subdir) and not Isskipfolder(curdir):
             fillEmptyDir(subdir)
     return
 

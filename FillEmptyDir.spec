@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['C:\\Users\\goney\\Dropbox\\Rainbow\\Files\\githubs\\configs\\trunk\\FillEmptyDir.py'],
+a = Analysis(['FillEmptyDir.py'],
              pathex=['C:\\Users\\goney\\Dropbox\\Rainbow\\Files\\githubs\\configs\\trunk'],
              binaries=[],
              datas=[],
@@ -26,4 +26,4 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           runtime_tmpdir=None,
-          console=True )
+          console=True , version='file_version_info.txt')
